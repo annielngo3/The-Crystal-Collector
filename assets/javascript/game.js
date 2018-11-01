@@ -27,17 +27,17 @@ $(document).ready(function() {
         $("#crystal4").attr("data-crystalvalue", crystal4Val);
         $("#wins").text(wins);
         $("#losses").text(losses);
-        $("#winOrLose").text("");
+        $("#playAgain").text("");
     }
 
     function youWin() {
-        $("#winOrLose").text("YOU WIN!");
+        $("#playAgain").text("YOU WIN!");
         wins++;
         $("#wins").text(wins);
     }
 
     function youLose() {
-        $("#winOrLose").text("YOU'RE A LOSER");
+        $("#playAgain").text("YOU'RE A LOSER");
         losses++;
         $("#losses").text(losses);
     }

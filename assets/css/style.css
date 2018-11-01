@@ -16,7 +16,7 @@ h3 {
 }
 
 .header {
-    padding: 70px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 h1, h3, #magicNumber, 
@@ -57,7 +57,7 @@ h1 {
    
 }
 
-#winOrLose {
+#playAgain {
     color: #a182bc;
 }
 
